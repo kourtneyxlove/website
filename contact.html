@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page 3</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background-image: url("images/fcb14a161aa9547b4673c26e4bc92cdd.jpg");
+background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  color: #FFFFFF;
+}
+
+
+.header h1 {
+  font-size: 40px;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #454B1B;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: underline;
+}
+
+
+.navbar a.right {
+  float: right;
+}
+
+
+.navbar a:hover {
+  background-color: #F0EBF4;
+  color: black;
+}
+
+
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+
+
+
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: #F0EBF4;
+  padding: 20px;
+}
+
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #B39BC8;
+}
+.h2 {
+  display: block;
+  font-size: 2em;
+  background-color: #B39BC8;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+ font-family: "Lucida Console";
+  text-align: Center;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #7BB892;
+  padding: 100px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Bring the outside in</h1>
+<p class="u-align-center u-text u-text-1">Affordable, practicle and realistic ways of bringing the multiple benefits of nature into the homes</p>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="login.html">Login</a>
+  
+</div>
+
+
+  <div class="main">
+    <h2 class="h2">Contact us</h2>
+    <section>
+<div class="u-border-3 u-border-white u-shape u-shape-bottom u-shape-left u-shape-1"></div>
+            
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="england">England</option>
+      <option value="Northern Ireland">Northern Ireland</option>
+      <option value="scotland">Scotland</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write here..." style="height:200px"></textarea>
+
+    <input type="submit" value="Feedback">
+  </form>
+</div>
+            <div class="u-border-3 u-border-white u-shape u-shape-right u-shape-top u-shape-2"></div>
+          </div>
+     </section>
+    
+</div>
+</div>
+
+<div class="footer">
+  <small><i>Copyright © 2022 · Bring the outside in, LLC. All rights reserved</i></small>
+</div>
+
+</body>
+</html>
